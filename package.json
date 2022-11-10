@@ -1,0 +1,38 @@
+{
+	"name": "davod-cli",
+	"description": "This is an experimental, educational command line interface written by David Blue. https://davidblue.wtf/contact",
+	"version": "0.0.1",
+	"license": "Please Fuck With This License",
+	"bin": {
+		"davod-cli": "index.js",
+		"davod": "index.js"
+	},
+	"author": {
+		"name": "David Blue",
+		"email": "davidblue@extratone.com",
+		"url": "https://github.com/extratone"
+	},
+	"keywords": [
+		"davod-cli",
+		"David Blue"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
